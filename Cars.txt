@@ -1,0 +1,17 @@
+CARS
+
+Id product - integer - INT - UNSIGNED - PRIMARY KEY - NOTNULL - AUTOINCREMENT - UNIQUE
+Chassis number - integer - INT - UNSIGNED - NULL - UNIQUE
+Year of registration - date - DATE - NOTNULL
+Miles traveled - decimal - FLOAT(8,2) - UNSIGNED - NOTNULL
+Battery Capacity KWh - decimal - FLOAT(5,2) - UNSIGNED - NOTNULL
+Battery life status percentage - integer - UNSIGNED - INT - NOTNULL
+Autopilot - boolean - TINYINT - NOTNULL
+Free refills - boolean - TINYINT - NULL
+Model - string VARCHAR(10) - NOTNULL
+Model variant - string - VARCHAR(10) - NOTNULL
+Heat pump - boolean - TINYINT - NULL
+Rims aero - boolean - TINYINT - NULL
+Color - string - VARCHAR(25) - NOTNULL
+Price - decimal - DECIMAL (8,2) - UNSIGNED - NOTNULL
+image - STRING - TEXT - DEFAULT (white auto, same model)
